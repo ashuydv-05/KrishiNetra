@@ -42,7 +42,7 @@ The system is centered around the NVIDIA Jetson, which is handling AI inference 
 A physical push button is connected to the Jetson through GPIO. When the button is pressed, the detection process is being triggered. The input is then being processed by the YOLO model, and the resulting prediction is being communicated to the ESP32 through UART.
 
 ~~~text
-                         KRISHINETRO
+                         KrishiNetra
                               |
                               v
                     +-------------------+
@@ -230,7 +230,7 @@ Inference
 Result
 ~~~
 
-### KrishiNetro Approach
+### KrishiNetra Approach
 
 ~~~text
 Input
@@ -460,7 +460,6 @@ The architecture has separated the computational workload from the hardware cont
 | Communication | UART |
 | Automation | Shell Script |
 | Service Management | systemd |
-| Data | CSV |
 
 ---
 
@@ -536,7 +535,7 @@ Further automation can be implemented so that detected crop conditions can be us
 
 # Conclusion
 
-KrishiNetro has been developed as an integrated crop disease detection system in which the AI model, edge device, and hardware components are working together.
+KrishiNetra has been developed as an integrated crop disease detection system in which the AI model, edge device, and hardware components are working together.
 
 The project has covered the process from YOLO model training and model conversion to TensorRT based edge inference, GPIO based triggering, UART communication, ESP32 integration, and automated deployment.
 
