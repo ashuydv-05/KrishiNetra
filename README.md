@@ -520,28 +520,6 @@ This has made the deployment process more consistent and has reduced the manual 
 
 ---
 
-# Results
-
-The final measured results can be documented here.
-
-| Metric | Value |
-|:---|---:|
-| Number of Classes | To be added |
-| Dataset Size | To be added |
-| Precision | To be added |
-| Recall | To be added |
-| mAP@50 | To be added |
-| mAP@50:95 | To be added |
-| Inference Latency | To be added |
-| FPS | To be added |
-| TensorRT Precision | To be added |
-
-> **Note:** Only measured values should be added to this section.
-
-The performance section will be updated with the actual training and deployment measurements once they have been verified.
-
----
-
 # Future Scope
 
 The system can be extended by adding more crop and disease classes and by improving the trained detection model.
