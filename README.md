@@ -1,4 +1,4 @@
-# KrishiNetro
+# KrishiNetra
 
 <p align="center">
   <strong>AI Based Crop Disease Detection and Edge Deployment System</strong>
@@ -12,7 +12,7 @@
 
 ## Overview
 
-KrishiNetro is an AI based crop disease detection system that has been developed to perform disease identification on an NVIDIA Jetson device.
+KrishiNetra is an AI based crop disease detection system that has been developed to perform disease identification on an NVIDIA Jetson device.
 
 The system is using a YOLO based computer vision model for disease detection and has been integrated with GPIO based triggering, TensorRT optimized inference, UART communication, and an ESP32 for hardware interaction.
 
