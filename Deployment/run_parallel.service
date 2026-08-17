@@ -1,0 +1,28 @@
+[Unit]
+Description=Run Sensor + YOLO Parallel Script
+After=multi-user.target
+
+[Service]
+Type=simple
+
+ExecStart=/usr/bin/python3 /home/tanay/final_7pm/gpio.py
+
+User=tanay
+WorkingDirectory=/home/tanay/final_7pm
+
+# Environment (Jetson fix)
+Environment=HOME=/home/tanay
+Environment=PATH=/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=JETSON_MODEL_NAME=JETSON_ORIN_NANO
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/tanay/.Xauthority
+Restart=on-failure
+RestartSec=3
+
+KillMode=process
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
